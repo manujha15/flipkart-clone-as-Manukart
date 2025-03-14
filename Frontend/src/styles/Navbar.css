@@ -1,0 +1,91 @@
+
+  /* Search bar styling */
+  .search-bar {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    background: rgb(66, 65, 139);
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .search-bar button {
+    background: #ff9f00;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Icon container */
+  .nav-icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-icons img {
+    width: 80px;  /* Increase icon size */
+    height: 80px;
+    cursor: pointer;
+  }
+  
+  /* Category section */
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 15px;
+  }
+  
+  .category-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .category-item img {
+    width: 70px;  /* Increased size */
+    height: 70px;
+  }
+  
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecedee; /* Flipkart-like blue */
+    padding: 10px 20px;
+    color: white;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-button {
+    background-color: rgb(67, 29, 195);
+    color: #f5f6f9;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-button:hover {
+    background-color: #ff9f00; /* Flipkart yellow */
+    color: white;
+}

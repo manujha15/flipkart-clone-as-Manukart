@@ -1,0 +1,49 @@
+/* Banner Container */
+.banner-container {
+  width: 100vw; /* Full screen width */
+  height: 450px; /* Increased height for better visibility */
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* Swiper Styles */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner Image */
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure proper image scaling */
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.banner-img:hover {
+  transform: scale(1.05);
+}
+
+/* Swiper Navigation Buttons */
+.swiper-button-prev, .swiper-button-next {
+  color: #fff !important;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 12px;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Swiper Pagination Dots */
+.swiper-pagination-bullet {
+  background: #fff !important;
+  opacity: 0.9;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff4500 !important;
+}

@@ -1,0 +1,22 @@
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between items */
+    margin-top: 20px;
+  }
+  
+  .category {
+    font-size: 38px; /* Increase text size */
+    font-weight: bold;
+    padding: 15px 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .category:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+    background-color: #ddd;
+  }
+  
